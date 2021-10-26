@@ -5,6 +5,7 @@ Description:
 
 #################
 Type:
+
 # feature : 새로운 기능 추가
 # fix : 버그 수정
 # docs : 문서 수정
@@ -12,8 +13,9 @@ Type:
 # refactor : 코드 리팩토링
 # style : 코드 의미에 영향을 주지 않는 변경사항
 # chore : 빌드 부분 혹은 패키지 매니저 수정사항
-
 #################
-#Note: <Merge 승인을 위해서 Approval가 알아야할 사항>
-
+Note:
+    - N/A
+    - N/A
+    
 #################
