@@ -4,6 +4,6 @@
 -----------
 
 + css free template: https://www.free-css.com/free-css-templates/page264/host-cloud
-+ Apply commit message:  """git config --global commit.template .\commit_msg_template.txt"""
++ Apply commit message:  '''git config --global commit.template .\commit_msg_template.txt'''
   
 
