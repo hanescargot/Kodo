@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="TemplateMo">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="TemplateMo" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700"
+      rel="stylesheet"
+    />
 
     <title>Host Cloud Template - Contact Page</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="vendor/bootstrap/css/login.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/login.css" rel="stylesheet" />
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-host-cloud.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-<!--
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-host-cloud.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+
+    <!-- js -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="assets/js/contact.js"></script>
+
+    <!--
 
 Host Cloud Template
 
@@ -29,29 +38,39 @@ https://templatemo.com/tm-541-host-cloud
   </head>
 
   <body>
-
     <!-- ***** Preloader Start ***** -->
     <div id="preloader">
-        <div class="jumper">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>  
+      <div class="jumper">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
     <!-- ***** Preloader End ***** -->
 
     <!-- Header -->
     <header class="">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="index.html"><h2>Host <em>Cloud</em></h2></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="index.html"
+            ><h2>Host <em>Cloud</em></h2></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home
+                <a class="nav-link" href="index.html"
+                  >Home
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
@@ -83,13 +102,15 @@ https://templatemo.com/tm-541-host-cloud
         <div class="row">
           <div class="col-md-12">
             <h1>KODO 관리자 승인 요청</h1>
-            <p><a href="index.html">관리자모드</a><span>Kodo의 자료 수정 및 추가</span></p>
+            <p>
+              <a href="index.html">관리자모드</a
+              ><span>Kodo의 자료 수정 및 추가</span>
+            </p>
           </div>
         </div>
       </div>
     </div>
     <!-- Heading Ends Here -->
-
 
     <!-- Contact Us Starts Here -->
     <div class="contact-us">
@@ -101,44 +122,83 @@ https://templatemo.com/tm-541-host-cloud
                 <div class="row">
                   <div class="col-md-12 col-sm-12">
                     <fieldset>
-                      <input name="name" type="text" id="name" placeholder="이름" required="">
+                      <input
+                        name="name"
+                        type="text"
+                        id="name"
+                        placeholder="이름"
+                        required=""
+                      />
                     </fieldset>
                   </div>
                   <div class="col-md-12 col-sm-12">
                     <fieldset>
-                      <input name="email" type="text" id="email" placeholder="이메일" required="">
+                      <input
+                        name="email"
+                        type="text"
+                        id="email"
+                        placeholder="이메일"
+                        required=""
+                      />
                     </fieldset>
                   </div>
                   <div class="col-md-12 col-sm-12">
                     <fieldset>
-                      <input name="subject" type="password" id="subject" placeholder="비밀번호">
+                      <input
+                        name="pw"
+                        type="password"
+                        id="pw"
+                        placeholder="비밀번호"
+                      />
                     </fieldset>
                   </div>
                   <div class="col-md-12 col-sm-12">
                     <fieldset>
-                      <input name="subject-check" type="password" id="subject-check" placeholder="비밀번호 확인">
+                      <input
+                        name="pw-check"
+                        type="password"
+                        id="subject-check"
+                        placeholder="비밀번호 확인"
+                      />
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <textarea name="message" rows="6" id="message" placeholder="관리자 승인 요청 메시지" required=""></textarea>
+                      <textarea
+                        name="message"
+                        rows="6"
+                        id="message"
+                        placeholder="관리자 승인 요청 메시지"
+                        required=""
+                      ></textarea>
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <button type="submit" id="form-submit" class="main-button">승인 요청</button>
+                      <button
+                        type="button"
+                        id="form-submit"
+                        class="main-button"
+                        onclick="varifyCheck()"
+                      >
+                        승인 요청
+                      </button>
                     </fieldset>
                   </div>
                 </div>
               </form>
-          </div>
+            </div>
           </div>
           <div class="col-md-6">
             <div class="right-content">
               <div class="section-heading">
                 <span>KODO</span>
                 <h2>관리자 승인 대상</h2>
-                <p>이연 교수님 관계 개발자만 관리자 요청에 승인됩니다. 승인이 늦어지거나 빠른 승인을 원하시면 아래의 오픈 카카오톡 주소로 연락해 주세요.</p>
+                <p>
+                  이연 교수님 관계 개발자만 관리자 요청에 승인됩니다. 승인이
+                  늦어지거나 빠른 승인을 원하시면 아래의 오픈 카카오톡 주소로
+                  연락해 주세요.
+                </p>
               </div>
               <div class="row">
                 <div class="col-md-6 col-sm-12">
@@ -170,10 +230,14 @@ https://templatemo.com/tm-541-host-cloud
               <div class="footer-heading">
                 <h2>About Us</h2>
               </div>
-              <p>Host Cloud is provided by TemplateMo for free of charge. Anyone can download and use this CSS Bootstrap template for commercial purposes.</p>
+              <p>
+                Host Cloud is provided by TemplateMo for free of charge. Anyone
+                can download and use this CSS Bootstrap template for commercial
+                purposes.
+              </p>
             </div>
           </div>
-          
+
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="footer-item">
               <div class="footer-heading">
@@ -188,8 +252,7 @@ https://templatemo.com/tm-541-host-cloud
               </ul>
             </div>
           </div>
-          
-          
+
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="footer-item">
               <div class="footer-heading">
@@ -204,7 +267,7 @@ https://templatemo.com/tm-541-host-cloud
               </ul>
             </div>
           </div>
-          
+
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="footer-item">
               <div class="footer-heading">
@@ -220,8 +283,10 @@ https://templatemo.com/tm-541-host-cloud
           </div>
           <div class="col-md-12">
             <div class="sub-footer">
-              <p>Copyright &copy; 2020 Cloud Hosting Company
-				- Designed by <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
+              <p>
+                Copyright &copy; 2020 Cloud Hosting Company - Designed by
+                <a rel="nofollow" href="https://templatemo.com">TemplateMo</a>
+              </p>
             </div>
           </div>
         </div>
@@ -238,17 +303,17 @@ https://templatemo.com/tm-541-host-cloud
     <script src="assets/js/owl.js"></script>
     <script src="assets/js/accordions.js"></script>
 
-
-    <script language = "text/Javascript"> 
+    <script language="text/Javascript">
       cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
-      function clearField(t){                   //declaring the array outside of the
-      if(! cleared[t.id]){                      // function makes it static and global
-          cleared[t.id] = 1;  // you could use true and false, but that's more typing
-          t.value='';         // with more chance of typos
-          t.style.color='#fff';
-          }
+      function clearField(t) {
+        //declaring the array outside of the
+        if (!cleared[t.id]) {
+          // function makes it static and global
+          cleared[t.id] = 1; // you could use true and false, but that's more typing
+          t.value = ""; // with more chance of typos
+          t.style.color = "#fff";
+        }
       }
     </script>
-
   </body>
 </html>
