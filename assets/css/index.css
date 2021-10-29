@@ -1,0 +1,7 @@
+.banner #search-section input.searchText{
+    color: black;
+    background-color: white;
+}
+.banner #search-section ::placeholder{
+    color: grey;
+  }
