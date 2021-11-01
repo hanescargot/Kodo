@@ -1,67 +1,55 @@
-function makeJava(){
-    window.location.href = 'makeJava.html'
+function makeJava() {
+  window.location.href = "/kodo/board/make/java.html";
 }
 
-function moveJava(){
-    window.location.href = 'postsJava.html'
+function moveJava() {
+  window.location.href = "/Kodo/board/posts/java.html";
 }
 
-
-
-function makeCss(){
-    window.location.href = 'makeCss.html'
+function makeCss() {
+  window.location.href = "/kodo/board/make/css.html";
 }
 
-function moveCss(){
-    window.location.href = 'postsCss.html'
+function moveCss() {
+  window.location.href = "/Kodo/board/posts/css.html";
 }
 
-
-
-function makeHtml(){
-    window.location.href = 'makeHtml.html'
+function makeHtml() {
+  window.location.href = "/kodo/board/make/html.html";
 }
 
-function moveHtml(){
-    window.location.href = 'postsHtml.html'
+function moveHtml() {
+  window.location.href = "/Kodo/board/posts/html.html";
 }
 
-
-
-function makeKotlin(){
-    window.location.href = 'makeKotlin.html'
+function makeKotlin() {
+  window.location.href = "/kodo/board/make/kotlin.html";
 }
 
-function moveKotlin(){
-    window.location.href = 'postsKotlin.html'
+function moveKotlin() {
+  window.location.href = "/Kodo/board/posts/kotlin.html";
 }
 
-
-
-function makeMysql(){
-    window.location.href = 'makeMysql.html'
+function makeMysql() {
+  window.location.href = "/kodo/board/make/mysql.html";
 }
 
-function moveMysql(){
-    window.location.href = 'postsMysql.html'
+function moveMysql() {
+  window.location.href = "/Kodo/board/posts/mysql.html";
 }
 
-
-
-function makePhp(){
-    window.location.href = 'makePhp.html'
+function makePhp() {
+  window.location.href = "/kodo/board/make/php.html";
 }
 
-function movePhp(){
-    window.location.href = 'postsPhp.html'
+function movePhp() {
+  window.location.href = "/Kodo/board/posts/php.html";
 }
 
-
-
-function makeXml(){
-    window.location.href = 'makeXml.html'
+function makeXml() {
+  window.location.href = "/kodo/board/make/xml.html";
 }
 
-function moveXml(){
-    window.location.href = 'postsXml.html'
+function moveXml() {
+  window.location.href = "/Kodo/board/posts/xml.html";
 }
