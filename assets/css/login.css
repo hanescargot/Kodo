@@ -1,0 +1,20 @@
+.row {
+  align-items: center;
+}
+.contact-us {
+  margin-bottom: 140px;
+}
+
+.contact-form input {
+  margin-bottom: 0px;
+}
+
+.contact-form p {
+  /* 안내 메시지 */
+  margin-bottom: 24px;
+  color: red;
+  size: 10px;
+}
+.contact-form p#pw {
+  color: grey;
+}
