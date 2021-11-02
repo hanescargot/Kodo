@@ -1,7 +1,16 @@
-.banner #search-section input.searchText{
-    color: black;
-    background-color: white;
+.banner #search-section input.searchText {
+  color: black;
+  background-color: white;
 }
-.banner #search-section ::placeholder{
-    color: grey;
-  }
+.banner #search-section ::placeholder {
+  color: grey;
+}
+
+.pricing-item {
+  height: 800px;
+  margin-bottom: 24px;
+}
+
+#cat {
+  margin-bottom: 100px;
+}
